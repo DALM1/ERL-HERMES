@@ -1,0 +1,16 @@
+{application, erl_messenger, [
+    {description, "ERL Messenger an OTP application"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {erl_messenger_app, []}},
+    {applications, [
+        kernel,
+        stdlib,
+        cowboy,
+        crypto
+    ]},
+    {env, []},
+    {modules, []},
+    {licenses, ["Apache-2.0"]},
+    {links, []}
+ ]}.
